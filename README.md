@@ -18,7 +18,7 @@ NovaLang is a lightweight, custom domain-specific programming language developed
 - `eval.c` / `eval.h`: Interpreter execution and tree traversal logic.
 - `main.c`: Entry point for reading and parsing `.nova` files.
 - `Makefile`: Automated compilation and build system.
-- `*.nova`: 10 comprehensive test scripts covering language constructs.
+- `*.nova`: 15 comprehensive test scripts covering language constructs.
 
 ## 🛠️ Build and Execution
 ```bash
