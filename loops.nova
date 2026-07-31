@@ -1,0 +1,10 @@
+var i = 1;
+var sum = 0;
+
+while (i <= 5) {
+    print("Loop Step: " + i);
+    sum = sum + i;
+    i = i + 1;
+}
+
+print("Total Sum: " + sum);

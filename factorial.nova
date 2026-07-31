@@ -1,0 +1,10 @@
+fn factorial(n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+var number = 5;
+var fact = factorial(number);
+print("Factorial of 5 is: " + fact);

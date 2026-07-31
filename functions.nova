@@ -1,0 +1,11 @@
+fn greet(user) {
+    print("Hello, " + user + "! Welcome to NovaLang.");
+}
+
+fn add_numbers(x, y) {
+    return x + y;
+}
+
+greet("Fathima");
+var res = add_numbers(20, 30);
+print("Result of Addition: " + res);

@@ -1,0 +1,13 @@
+var a = 15;
+var b = 4;
+
+print("--- Arithmetic Operators ---");
+print("Addition: " + (a + b));
+print("Subtraction: " + (a - b));
+print("Multiplication: " + (a * b));
+print("Division: " + (a / b));
+
+print("--- Relational & Logical ---");
+if (a > b && b > 0) {
+    print("a is greater than b AND b is positive");
+}

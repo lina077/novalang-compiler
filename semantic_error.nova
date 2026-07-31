@@ -1,0 +1,3 @@
+// Undefined Variable Test
+var x = 10;
+print(y); // 'y' is not declared, so it will trigger an error!
