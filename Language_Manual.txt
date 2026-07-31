@@ -1,0 +1,60 @@
+========================================================================
+                      NOVALANG USER & SYNTAX MANUAL
+========================================================================
+
+1. COMPILATION AND SETUP
+------------------------------------------------------------------------
+To compile NovaLang from source:
+  $ make
+
+To clean temporary build files:
+  $ make clean
+
+To run a script:
+  $ ./novalang <filename.nova>
+
+
+2. SYNTAX SPECIFICATIONS
+------------------------------------------------------------------------
+* Variables & Assignment:
+    let x = 10;
+    let y = 20;
+
+* Operations:
+    let sum = x + y;
+    let isGreater = x > y;
+
+* Conditionals:
+    if (x > 5) {
+        print(x);
+    } else {
+        print(0);
+    }
+
+* Loops:
+    while (x > 0) {
+        print(x);
+        x = x - 1;
+    }
+
+* Functions:
+    fn add(a, b) {
+        return a + b;
+    }
+    let res = add(5, 10);
+    print(res);
+
+
+3. TEST SCRIPTS INCLUDED
+------------------------------------------------------------------------
+1. variables.nova          - Variable declarations and assignments
+2. operators.nova          - Arithmetic and logical evaluations
+3. conditionals.nova       - Basic If-Else logic
+4. nested_conditionals.nova- Complex nested branch logic
+5. loops.nova              - Iterative execution structures
+6. functions.nova          - Function definition and scoping
+7. factorial.nova          - Recursive algorithm test
+8. fibonacci.nova          - Dynamic sequence generation
+9. prime_checker.nova      - Logic-heavy number checking
+10. semantic_error.nova    - Demonstration of error handling
+========================================================================
