@@ -1,5 +1,5 @@
 ========================================================================
-                      NOVALANG USER & SYNTAX MANUAL
+                    NOVALANG USER & SYNTAX MANUAL
 ========================================================================
 
 1. COMPILATION AND SETUP
@@ -10,19 +10,22 @@ To compile NovaLang from source:
 To clean temporary build files:
   $ make clean
 
-To run a script:
+To run a single script:
   $ ./novalang <filename.nova>
+
+To run all 15 test scripts at once:
+  $ for f in variables.nova operators.nova conditionals.nova nested_conditionals.nova loops.nova functions.nova factorial.nova fibonacci.nova prime_checker.nova semantic_error.nova math_utils.nova average.nova sum_square_series.nova complex_logic.nova sum_series.nova; do echo "=== $f ==="; ./novalang "$f"; echo ""; done
 
 
 2. SYNTAX SPECIFICATIONS
 ------------------------------------------------------------------------
 * Variables & Assignment:
-    let x = 10;
-    let y = 20;
+    var x = 10;
+    var y = 20;
 
 * Operations:
-    let sum = x + y;
-    let isGreater = x > y;
+    var sum = x + y;
+    var isGreater = x > y;
 
 * Conditionals:
     if (x > 5) {
@@ -41,7 +44,7 @@ To run a script:
     fn add(a, b) {
         return a + b;
     }
-    let res = add(5, 10);
+    var res = add(5, 10);
     print(res);
 
 
@@ -57,4 +60,9 @@ To run a script:
 8. fibonacci.nova          - Dynamic sequence generation
 9. prime_checker.nova      - Logic-heavy number checking
 10. semantic_error.nova    - Demonstration of error handling
+11. math_utils.nova        - Power/Exponentiation calculation
+12. average.nova           - Arithmetic operations & aggregation
+13. sum_square_series.nova - Series evaluation (Sum of squares)
+14. complex_logic.nova     - Multi-variable conditional validation
+15. sum_series.nova        - Accumulative series calculation
 ========================================================================
