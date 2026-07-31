@@ -1,0 +1,12 @@
+var mark = 85;
+var attendance = 90;
+
+if (mark > 79) {
+    if (attendance > 84) {
+        print(100);
+    } else {
+        print(80);
+    }
+} else {
+    print(0);
+}

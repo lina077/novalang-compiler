@@ -1,0 +1,10 @@
+var n = 10;
+var total = 0;
+var current = 1;
+
+while (current < n + 1) {
+    total = total + current;
+    current = current + 1;
+}
+
+print(total);
