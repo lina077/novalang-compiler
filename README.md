@@ -28,5 +28,8 @@ make
 # Run a sample program
 ./novalang variables.nova
 
+# Run all 15 test scripts at once
+for f in *.nova; do echo "=== $f ==="; ./novalang "$f"; echo ""; done
+
 # Run all test scripts sequentially
 make clean && make
