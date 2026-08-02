@@ -22,6 +22,7 @@ To run all 15 test scripts at once:
 * Variables & Assignment:
     var x = 10;
     var y = 20;
+    var name = "NovaLang";
 
 * Operations:
     var sum = x + y;
